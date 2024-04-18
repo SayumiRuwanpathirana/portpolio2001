@@ -35,13 +35,7 @@ const AboutSection = () => {
             I'm an undergraduate student at University of Sri Jayewardenepura and I'm studying BS.c.IT(Hons.) degree.
             </p>
             <br />
-            <p>
-            😉
-            </p>
-            <br />
-            <p>
-              🙂
-            </p>
+            
           </div>
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold mb-6">My Skills</h1>

@@ -13,7 +13,14 @@ const projects = [
     github: "https://github.com/FHSS-USJ/final-assessment-group-05-sound-safari.git",
     link: "https://thankfulthoughts.io/",
   },
-  
+  {
+    name: "Portfolio Website",
+    description:
+      "Portfolio website is built on using typescript.Our department has a subject unit called Web Application Development in the first semester of the third academic year.",
+    image: "/WADportfolio.png",
+    github: "https://github.com/SayumiRuwanpathirana/portpolio2001.git",
+    link: "https://your-project-website.com/",
+  },
 ]
 
 const ProjectsSection = () => {
