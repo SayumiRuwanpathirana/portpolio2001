@@ -1,16 +1,14 @@
-import React from "react"
-import Image from "next/image"
+import React from "react";
+import Image from "next/image";
 
 const skills = [
-
   { skill: "TypeScript" },
   { skill: "Python" },
   { skill: "React" },
   { skill: "Next.js" },
   { skill: "Git" },
   { skill: "GitHub" },
-  
-]
+];
 
 const AboutSection = () => {
   return (
@@ -18,24 +16,23 @@ const AboutSection = () => {
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
         <h1 className="text-center font-bold text-4xl">
           About Me
-          <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
+          <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded" />
         </h1>
 
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
-          <div className="md:w-1/2 ">
+          <div className="md:w-1/2">
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
               Get to know me!
             </h1>
             <p>
               Hi{" "}
-              I'm Sayumi Tharumila Pathirana. 
+              I&apos;m Sayumi Tharumila Pathirana. 
             </p>
             <br />
             <p>
-            I'm an undergraduate student at University of Sri Jayewardenepura and I'm studying BS.c.IT(Hons.) degree.
+              I&apos;m an undergraduate student at University of Sri Jayewardenepura and I&apos;m studying BS.c.IT(Hons.) degree.
             </p>
             <br />
-            
           </div>
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold mb-6">My Skills</h1>
@@ -48,7 +45,7 @@ const AboutSection = () => {
                   >
                     {item.skill}
                   </p>
-                )
+                );
               })}
             </div>
             <Image
@@ -62,7 +59,7 @@ const AboutSection = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default AboutSection
+export default AboutSection;
