@@ -6,7 +6,7 @@ interface Props {
 }
 
 export default function SlideUp({ children, offset = "0px" }: Props) {
-  const ref = useRef(null);
+  const ref = useRef<HTMLDivElement>(null); // Specify the type of element here
 
   useEffect(() => {
     const observer = new IntersectionObserver(
