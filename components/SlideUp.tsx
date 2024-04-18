@@ -1,3 +1,4 @@
+// SlideUp.tsx
 import React, { useEffect, useRef, ReactNode } from "react";
 
 interface Props {
@@ -6,7 +7,7 @@ interface Props {
 }
 
 export default function SlideUp({ children, offset = "0px" }: Props) {
-  const ref = useRef<HTMLDivElement>(null); // Define the type for the ref
+  const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -25,13 +26,12 @@ export default function SlideUp({ children, offset = "0px" }: Props) {
       observer.observe(ref.current);
     }
 
-    // Cleanup function
     return () => {
       if (ref.current) {
         observer.unobserve(ref.current);
       }
     };
-  }, [offset, ref]); // Include 'offset' and 'ref' in the dependency array
+  }, [offset, ref]);
 
   return (
     <div ref={ref} className="relative opacity-0">
@@ -39,3 +39,6 @@ export default function SlideUp({ children, offset = "0px" }: Props) {
     </div>
   );
 }
+
+// At the end of SlideUp.tsx
+export const useClient = true;
