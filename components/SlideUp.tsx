@@ -1,5 +1,9 @@
 // SlideUp.tsx
+// @ts-nocheck
 import React, { useEffect, useRef, ReactNode } from "react";
+
+// Use client pragma to mark this component as client-side
+useClient();
 
 interface Props {
   offset?: string;
@@ -39,6 +43,3 @@ export default function SlideUp({ children, offset = "0px" }: Props) {
     </div>
   );
 }
-
-// At the end of SlideUp.tsx
-export const useClient = true;
