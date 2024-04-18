@@ -4,7 +4,7 @@ import Link from "next/link"
 import SlideUp from "./SlideUp"
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
-useClient();
+
 
 const projects = [
   {
