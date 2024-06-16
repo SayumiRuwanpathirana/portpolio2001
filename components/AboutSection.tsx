@@ -30,7 +30,7 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              I&apos;m an undergraduate student at University of Sri Jayewardenepura and I&apos;m studying BS.c.IT(Hons.) degree.
+              I&apos;m an undergraduate student at University of Sri Jayewardenepura and I&apos;m studying BS.c.IT(Hons.) degree.My passion for technology drives me to explore the latest trends and innovations in the IT industry, and I'm dedicated to applying my knowledge to solve real-world problems.
             </p>
             <br />
           </div>
